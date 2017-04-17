@@ -30,6 +30,6 @@
     ~/.zshrc:
 #   ~/.my.zsh:
 - shell:
-  - echo zsh >> ~/.bashrc
+  - echo zsh >> ~/.profile
   - mkdir -p ~/.rtorrent/session ~/.rtorrent/watch ~/.rtorrent/downloads
   - git update-submodules # after linking ~/.gitconfig
